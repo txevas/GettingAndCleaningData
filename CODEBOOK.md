@@ -3,15 +3,15 @@
   
 The data structure of the output file must be:   
 <!-- -->
-1.  Subject id. Integer. Values from 1 to 30.  
-2.  Activity name. Character.   
+1.  `Subject id`. Integer. Values from 1 to 30.  
+2.  `Activity name`. Character.   
     WALKING   
     WALKING_UPSTAIRS   
     WALKING_DOWNSTAIRS  
     SITTING  
     STANDING  
     LAYING     
-3.  Feature name. Character.  
+3.  `Feature name`. Character.  
     "tBodyAcc-mean()-X"  
     "tBodyAcc-mean()-Y"  
     "tBodyAcc-mean()-Z"  
@@ -91,7 +91,7 @@ The data structure of the output file must be:
 "fBodyBodyGyroJerkMag-mean()"  
 "fBodyBodyGyroJerkMag-std()"  
 "fBodyBodyGyroJerkMag-meanFreq()"  
-4.  Average value. Numeric.   
+4.  `Average value`. Numeric.   
 
 Resulting data frame (tidy_data) with 6 observations after an execution:
 <!-- -->
